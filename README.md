@@ -1,16 +1,14 @@
-## Hi there 👋
+# Hi, I'm Umasuthan Palaniappan 👋
 
-<!--
-**umasuthanpalaniappan/umasuthanpalaniappan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I work on financial analytics and risk modeling, building tools that turn raw financial data into clear, actionable insight.
 
-Here are some ideas to get you started:
+## 🔭 What I'm building
+- **[RiskLens](https://github.com/umasuthanpalaniappan/risklens)** — a project focused on financial risk analysis.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🛠️ Tech Stack
+- **Python** — data analysis, modeling, automation
+- Financial analytics & risk modeling
+
+## 📫 Connect with me
+- LinkedIn: [umasuthan-palaniappan](https://www.linkedin.com/in/umasuthan-palaniappan)
+- Email: palaniappan.2al@gmail.com
