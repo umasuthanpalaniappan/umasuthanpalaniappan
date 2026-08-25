@@ -11,4 +11,4 @@ I work on financial analytics and risk modeling, building tools that turn raw fi
 
 ## 📫 Connect with me
 - LinkedIn: [umasuthan-palaniappan](https://www.linkedin.com/in/umasuthan-palaniappan)
-- Email: palaniappan.2al@gmail.com
+- Email: umasuthanpalaniappan@gmail.com
