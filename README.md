@@ -199,12 +199,8 @@ coursework:     [Deep Learning, Convex Optimization, Markov Chains, Probability 
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=umasuthanpalaniappan&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=umasuthanpalaniappan&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" />
-
-<img src="https://streak-stats.demolab.com?user=umasuthanpalaniappan&theme=tokyonight&hide_border=true" />
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=umasuthanpalaniappan&theme=tokyo-night&hide_border=true&area=true" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=umasuthanpalaniappan&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&rank_icon=github" />
+<img height="170" src="https://streak-stats.demolab.com?user=umasuthanpalaniappan&theme=tokyonight&hide_border=true" />
 
 </div>
 
