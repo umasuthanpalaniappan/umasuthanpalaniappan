@@ -7,7 +7,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3200&pause=900&color=58A6FF&center=true&vCenter=true&width=720&lines=%3E+Hey+there!+I'm+Umasuthan+%F0%9F%91%8B;%3E+I+forecast+market+volatility+with+GNN+%2B+LSTM;%3E+I+build+voice+agents+that+call+in+Tamil+%26+Hindi;%3E+I+ship+YOLO+models+that+run+on+a+Raspberry+Pi;%3E+4x+hackathon+finisher.+Always+building." alt="Typing SVG" />
 </a>
 
-<code>[ B.Tech AI & Data Science (Medical Engineering) @ Amrita Vishwa Vidyapeetham, Coimbatore ]</code><br/>
+<code>[ B.Tech Artificial Intelligence & Data Science @ Amrita Vishwa Vidyapeetham, Coimbatore ]</code><br/>
 <code>[ Open to AI/ML and Quantitative Analytics internships ]</code>
 
 <br/><br/>
@@ -16,6 +16,14 @@
 <a href="mailto:umasuthanpalaniappan@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 <a href="https://risk-lens-orcin.vercel.app"><img src="https://img.shields.io/badge/Live%20Project-RiskLens-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
 <img src="https://komarev.com/ghpvc/?username=umasuthanpalaniappan&style=for-the-badge&color=1f6feb&label=PROFILE+VIEWS" />
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/🏆%20Hackathons-4%20finishes-ffb000?style=flat-square&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/🌐%20Live%20deployments-3-2ea043?style=flat-square&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/📈%20Volatility%20direction%20acc.-72.1%25-1f6feb?style=flat-square&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/🎯%20Edge%20YOLO-0.867%20mAP%20%40%2015%20FPS-8957e5?style=flat-square&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/🎓%20CGPA-8.45-e34c26?style=flat-square&labelColor=0d1117" />
 
 </div>
 
@@ -74,6 +82,21 @@ class Umasuthan:
 - 🔌 I am comfortable all the way down to the **hardware**: Raspberry Pi, ESP32, GPS, cameras.
 - 🌾 Spent **20 days living in a rural village** (Live-in-Labs) mapping real problems before proposing tech for them.
 
+<table>
+<tr>
+<td>🔭 <b>Building</b></td><td>Regime-aware upgrades to RiskLens: better graph gating and stress-tested portfolios</td>
+</tr>
+<tr>
+<td>🌱 <b>Learning</b></td><td>Graph representation learning, convex optimization and multi-agent systems with MCP</td>
+</tr>
+<tr>
+<td>💬 <b>Ask me about</b></td><td>GNNs for finance, voice agents in Indian languages, squeezing YOLO onto a Raspberry Pi</td>
+</tr>
+<tr>
+<td>⚡ <b>Fun fact</b></td><td>I captain two table tennis teams and both won the title</td>
+</tr>
+</table>
+
 </details>
 
 <!-- ============================ HIGHLIGHTS ============================ -->
@@ -93,50 +116,64 @@ class Umasuthan:
 <!-- ============================ PROJECTS ============================ -->
 <h2>🚀 Featured Projects</h2>
 
+<!-- Spotlight -->
+<h3 align="center">⭐ Spotlight: <a href="https://github.com/umasuthanpalaniappan/RiskLens">RiskLens</a></h3>
+<p align="center"><b>Volatility is the signal. RiskLens turns it into a portfolio.</b></p>
+
+<a href="https://risk-lens-orcin.vercel.app"><img width="100%" src="https://raw.githubusercontent.com/umasuthanpalaniappan/RiskLens/main/docs/screenshots/hero.png" alt="RiskLens live dashboard" /></a>
+
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="55%" valign="top">
 
-### 📊 [RiskLens](https://github.com/umasuthanpalaniappan/RiskLens)
-**LSTM + Dynamic GNN volatility forecasting for 18 NSE stocks**
+- 🧠 **LSTM + dynamic GNN** in PyTorch forecasting 5-day volatility for **18 NSE stocks across 10 sectors**
+- 🕸️ Stock graph **rebuilt every day** from 60-day volatility correlations, with a learnable per-stock gate deciding how much each stock trusts its neighbours
+- 🎯 **72.1% direction accuracy** on a held-out chronological split (15 years, 3,778 trading days)
+- 💼 Predicted vols ➜ covariance ➜ long-only **minimum-variance portfolio** + calm / normal / crisis regime overlay
+- 🤖 **Runs itself:** GitHub Actions re-runs inference after NSE close and redeploys the dashboard on Vercel
 
-- Graph rebuilt **daily** from 60-day volatility correlations, with a learnable per-stock gate
-- **72.1%** direction accuracy on a chronological test split
-- Predicted vols ➜ covariance ➜ **minimum-variance portfolio** + calm / normal / crisis regime overlay
-- **Fully autonomous:** GitHub Actions re-runs inference after NSE close and redeploys on Vercel
-
-<a href="https://risk-lens-orcin.vercel.app"><img src="https://img.shields.io/badge/🔴%20Live%20Dashboard-000?style=flat-square" /></a>
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
-<img src="https://img.shields.io/badge/GNN-8957e5?style=flat-square" />
-<img src="https://img.shields.io/badge/Quant-1f6feb?style=flat-square" />
+<a href="https://risk-lens-orcin.vercel.app"><img src="https://img.shields.io/badge/🔴%20Open%20Live%20Dashboard-000000?style=for-the-badge" /></a>
+<a href="https://github.com/umasuthanpalaniappan/RiskLens"><img src="https://img.shields.io/badge/Source-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
 
 </td>
+<td width="45%" valign="top">
+<a href="https://risk-lens-orcin.vercel.app"><img width="100%" src="https://raw.githubusercontent.com/umasuthanpalaniappan/RiskLens/main/docs/screenshots/network-graph.png" alt="Dynamic correlation network" /></a>
+<p align="center"><sub>The live graph the GNN actually convolves over</sub></p>
+</td>
+</tr>
+</table>
+
+<!-- Grid -->
+<table>
+<tr>
 <td width="50%" valign="top">
 
 ### 🩸 [HaemNet](https://github.com/Team-DROS/HaemNet)
 **AI emergency blood dispatch that calls donors in their language**
 
+<img width="100%" src="https://raw.githubusercontent.com/Team-DROS/HaemNet/main/assets/architecture.png" alt="HaemNet architecture" />
+
 - Neo4j graph matches donors by **blood compatibility, distance and 56-day gap**
 - **LangGraph agent** calls every match in parallel in English, Hindi or Tamil (Sarvam AI + Twilio)
-- React Native donor app + live hospital dashboard on FastAPI
-- 🔥 **Top 100, HackHazards 2026**
+- React Native donor app + real-time hospital dashboard over WebSockets
+- 🔥 **Top 100 of 2,657 projects, HackHazards 2026**
 
-<a href="https://donor-web-plum.vercel.app"><img src="https://img.shields.io/badge/🔴%20Live%20Demo-000?style=flat-square" /></a>
+<a href="https://haemnet-dashboard.onrender.com/"><img src="https://img.shields.io/badge/🔴%20Live%20Demo-000?style=flat-square" /></a>
+<a href="https://haemnet-api.onrender.com/docs"><img src="https://img.shields.io/badge/API%20Docs-009688?style=flat-square&logo=fastapi&logoColor=white" /></a>
 <img src="https://img.shields.io/badge/Neo4j-4581C3?style=flat-square&logo=neo4j&logoColor=white" />
 <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square" />
-<img src="https://img.shields.io/badge/Voice%20AI-F22F46?style=flat-square" />
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### 🪖 [PrivaSafe](https://github.com/srinath008/PrivaSafe)
 **Edge-AI helmet enforcement, 100% on a Raspberry Pi 5**
 
-- YOLO detection + licence-plate OCR + **face blurring for privacy** + GPS tagging
+<img width="100%" src="https://raw.githubusercontent.com/srinath008/PrivaSafe/main/assets/hardware_setup.png" alt="PrivaSafe hardware setup" />
+
+- YOLO detection + licence-plate OCR + **face blurring for privacy** + GPS tagging, no cloud
 - **0.867 mAP@0.5** at **~15 FPS** with a **9.5 MB** OpenVINO model
-- Trained on a merged 8,553-image, 5-class dataset
+- Trained on a merged **8,553-image, 5-class** dataset
 - 3-pass preprocessing + Indian plate-format correction for OCR
 
 <img src="https://img.shields.io/badge/YOLO-00FFFF?style=flat-square&logoColor=black" />
@@ -144,19 +181,36 @@ class Umasuthan:
 <img src="https://img.shields.io/badge/Raspberry%20Pi%205-A22846?style=flat-square&logo=raspberrypi&logoColor=white" />
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### 🍲 [Agentic Food Rescue](https://github.com/Team-DROS/Agentic_Food_Rescue_System)
 **MCP server that rescues surplus food autonomously**
 
-- Haversine search over PostgreSQL with capacity + perishability limits
-- Places **real phone calls** to NGOs in their regional language
+- Haversine search over PostgreSQL with capacity + perishability limits (non-veg stays within 5 km)
+- Places **real phone calls** to NGOs in their regional language via Sarvam AI + Twilio
 - Auto-assigns the nearest delivery executive, SMS updates, JSONB audit logs
 - 🥉 **3rd Place, NitroStack x Amrita** (Team Lead)
 
 <img src="https://img.shields.io/badge/MCP-1f6feb?style=flat-square" />
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
 <img src="https://img.shields.io/badge/Sarvam%20AI-ff7a00?style=flat-square" />
+
+</td>
+<td width="50%" valign="top">
+
+### 🛠️ [TroubleShoot](https://github.com/Team-DROS/TroubleShoot)
+**AI Windows troubleshooter that only acts with your approval**
+
+- Gathers **real Windows evidence**, Gemma 4 reasons over it and proposes one bounded fix
+- Runs **only after explicit approval**, then re-checks whether the symptom actually changed
+- I owned the **local Gemma provider and agent reasoning**
+- ⚡ **4th of 70 teams**, built in a single day at MLH Hacktoberfest Hack Day
+
+<img src="https://img.shields.io/badge/Gemma%204-4285F4?style=flat-square&logo=google&logoColor=white" />
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+<img src="https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white" />
 
 </td>
 </tr>
@@ -168,7 +222,6 @@ class Umasuthan:
 
 | Project | What it does | Stack |
 |:--|:--|:--|
-| 🛠️ [**TroubleShoot**](https://github.com/Team-DROS/TroubleShoot) | Windows troubleshooting agent: gathers real system evidence, Gemma 4 proposes a fix, runs **only after user approval**, then re-checks if it worked. I owned the local Gemma provider and agent reasoning. | Python, FastAPI, Gemma, PWA |
 | 🩺 [**VaidyaVani**](https://github.com/Team-DROS/VaidyaVani) | Phone-first clinical scribe: doctor dictates in English / Hinglish / Tanglish, paper records get scanned, both become one structured patient profile. | React Native, FastAPI, Whisper, Qwen |
 | 🛢️ [**BioOil-Automation**](https://github.com/umasuthanpalaniappan/BioOil-Automation) | Physics-aware ML that recommends pyrolysis settings for **more bio-oil with less oxygen**. Exposed how random splits inflate R² and fixed it with unseen-biomass evaluation. | scikit-learn, SHAP, FastAPI, React |
 
